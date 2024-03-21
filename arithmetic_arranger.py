@@ -1,3 +1,5 @@
+#This is the actual "package" we use in main.py
+
 import operator
 ops = {"+": operator.add, "-": operator.sub, "*": operator.mul}
 
