@@ -1,6 +1,7 @@
 #This is the actual "package" we use in main.py
 
 import operator
+# the operators
 ops = {"+": operator.add, "-": operator.sub, "*": operator.mul}
 
 
@@ -41,6 +42,10 @@ def arithmetic_arranger(problems, solver=False):
         print(lines)
         print(totals)
 
-
+# put in your problem here 
+#    |
+#    |
+#    |
+#    ⌄
 if __name__ == "__main__":
     arithmetic_arranger(["32 + 698", "3801 - 2", "45 + 43", "123 + 49"])
