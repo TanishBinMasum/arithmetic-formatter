@@ -31,6 +31,7 @@ def arithmetic_arranger(problems, solver=False):
 
         # Get total of correct function
         total = ops[operator](int(fnumber), int(snumber))
+        
         # Get distance for longest operator
         operatorDistance = max(len(fnumber), len(snumber)) + 2
 
