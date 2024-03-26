@@ -41,6 +41,7 @@ def arithmetic_arranger(problems, solver=False):
         bottomtier = bottomtier + snumber + (4 * " ")
         lines = lines + len(snumber) * "_" + (4 * " ")
         totals = totals + str(total).rjust(operatorDistance) + (4 * " ")
+        
     if solver:
         print(toptier)
         print(bottomtier)
