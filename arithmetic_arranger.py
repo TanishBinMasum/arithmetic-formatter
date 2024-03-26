@@ -16,6 +16,7 @@ def arithmetic_arranger(problems, solver=False):
     lines = ""
     totals = ""
     for n in problems:
+        
         fnumber = n.split()[0]
         operator = n.split()[1]
         snumber = n.split()[2]
