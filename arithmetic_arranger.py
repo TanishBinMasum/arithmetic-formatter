@@ -8,6 +8,7 @@ ops = {"+": operator.add, "-": operator.sub, "*": operator.mul}
 
 def arithmetic_arranger(problems, solver=False):
     # Check problems does not exceed the given max(5)
+    
     if len(problems) > 5:
         return "Error: Too many problems."
     toptier = ""
