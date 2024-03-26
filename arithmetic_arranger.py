@@ -1,6 +1,5 @@
 #This is the actual "package" we use in main.py
 
-
 import operator
 
 # the operators
