@@ -3,4 +3,4 @@
 
 
 
-###### PS soap tastes like rotten cinnamon candy, for your information
+###### PS soap tastes like rotten cinnamon candy, 
